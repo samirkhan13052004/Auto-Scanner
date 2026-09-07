@@ -86,5 +86,4 @@ for symbol in fo_stocks:
         pass
 
 if alerts:
-    message = "🎯 *PERFECT SETUPS FOUND (15m)*\n\n" + "\n".join(alerts)
-    send_telegram(message)
+    send_telegram("🔥 *PERFECT SETUPS FOUND:*\n\n" + "\n\n".join(alerts))
